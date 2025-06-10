@@ -7,9 +7,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/miestilo.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fresca&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/cd9beaf99a.js" crossorigin="anonymous"></script>
 
@@ -19,45 +25,28 @@
   <body class="roboto">
     
     <header>
-      
-      <section class="fondo_azul" id="top_bar">
-        <div class="container">
-          <div class="d-flex justify-content-between">
-           <div id="contact_info">
-            <i class="fa-solid fa-envelope"></i> contact@example.com
-               
-            <i class="fa-solid fa-phone"></i> +504 88996633
-           </div>
-           <div id="contact_social">
-            <i class="fa-brands fa-facebook" ></i>
-            <i class="fa-brands fa-instagram" ></i>
-            <i class="fa-brands fa-facebook" ></i>
-            <i class="fa-brands fa-instagram" ></i>
-           </div>
-            
-
-          </div>
-        </div>
-      </section>
 
       <section>
             <nav class="navbar" id="menu">
               <div class="container">
                 <a class="navbar-brand" href="#">
-                  BizLanD
-                </a>
-                <ul class="nav">
+                  <img src="img/Panecitos.png.PNG" alt="" width="200px" height="100px" data-aos="fade-right">
+                  </a>
+                <ul class="nav" data-aos="fade-left">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="index.html"><span class="navbarmenu">INICIO</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="sobrenosotros.html"><span class="navbarmenu">SOBRE NOSOTROS</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link" href="menu.html"><span class="navbarmenu">MENÚ</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="qa.html"><span class="navbarmenu">Q&A</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html"><span class="navbarmenu">CONTACTANOS</span></a>
                   </li>
                  
                 </ul>
@@ -71,202 +60,121 @@
     <main>
       <section id="hero">
         <div class="container">
-          <div>
-            <h1>Welcome to <span class="color_azul">BizLand</span></h1>
-            <h4>We are team of talented designers making websites with Bootstrap</h4>
-            <button type="button" class="btn btn-primary">Get Started</button>
+          <div><h1 class="old-standard-tt-regular"><span>CROISSANTS</span></h1>
+            <h4 class="old-standard-tt-regular">Crujientes y listos para tu desayuno</h4>
+            <section style="text-align: center;">
+              <br>
+            <button type="button" class="button"><span class="navbarmenu">¡PIDELOS HOY!</span></button>
+            </section>
           </div>
         </div>
       </section>
 
-      <section id="servicios">
+      <section id="columnas1">
         <div class="container">
           <div class="row">
-            <div class="col-3 p_arribayabajo sombras">
-               <i class="fa-solid fa-envelope color_azul grande"></i>
-              <h4>Loren ipsum</h4>
-              <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="col-6">
+              <br><br><br><br><br><br><br><br><br>
+              <h4 class="old-standard-tt-regular" style="color: #FF80AE; font-size: 40px;">SOBRE NOSOTROS</h4>
+              <p style="text-align: justify;" class="inmargin">Ella sabe todos los pormenores a la hora de viajar con un presupuesto ajustado. ¿Cómo exploras Europa sin arruinarte?, ¿o cómo puedes encontrar lujos a precios asequibles viajando de mochilero por Asia? 
+Pregúntale a Candela</p>
             </div>
-            <div class="col-3 p_arribayabajo sombras">
-               <i class="fa-solid fa-envelope color_azul grande"></i>
-              <h4>Loren ipsum</h4>
-              <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="col-6">
+              <img style="display: block;" width="100%" height="100%" src="img/1.jpg">
             </div>
-            <div class="col-3 p_arribayabajo sombras">
-               <i class="fa-solid fa-envelope color_azul grande"></i>
-              <h4>Loren ipsum</h4>
-              <p>We are team of talented designers making websites with Bootstrap</p>
+          </div>
+        </div>
+      </section>
+
+  <section id="columnas2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <br><br><br><br>
+              <h4 class="old-standard-tt-regular" style="color: #FF80AE;"><span style="font-size: 50px;">Nuestros <br>Postres</span></h4>
+              <section style="text-align: center;">
+              <br>
+            <button type="button" class="button2"><span class="textblanco">SIGUENOS</span></button>
+            </section>
             </div>
-            <div class="col-3 p_arribayabajo sombras">
-               <i class="fa-solid fa-envelope color_azul grande"></i>
-              <h4>Loren ipsum</h4>
-              <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="col-6">
+                    <div class="d-flex justify-content-start">
+                        <div>
+                            <i><img src="img/2.jpg" width="120px" height="120px" style="margin-right: 20px;"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #FF80AE;">Gluten Free</h4>
+                            <p>Descubre destinos que no te puedes perder.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-start">
+                        <div>
+                            <i><img src="img/3.jpg" width="120px" height="120px" style="margin-right: 20px;"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #FF80AE;">Our Choice</h4>
+                            <p>Disfruta de un viaje sin complicaciones con estos <br>consejos antes, durante y después del viaje.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-start">
+                        <div>
+                            <i><img src="img/4.jpg" width="120px" height="120px" style="margin-right: 20px;"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: #FF80AE;">Classics</h4>
+                            <p>Aprovecha al máximo tus vacaciones <br>disfrutando de itinerarios únicos.</p>
+                        </div>
+                    </div>
             </div>
           </div>
         </div>
       </section>
 
 
-
-
-
+      <section style="background-color: #fac2d5;">
+        <h2 class="old-standard-tt-bold2">Nuestras Tiendas</h2>
+<br>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img style="display: block;" width="100%" height="80%" src="img/5.jpg">
+              <h5 style="padding-top: 20px;">Boston</h5>
+              <p class="parrafo">Incluye los mejores posts de tus viajes para que tus posibles colaboradores se hagan una idea del tipo de trabajo que realizas.</p>
+            </div>
+            <div class="col-4">
+              <img style="display: block;" width="100%" height="80%" src="img/6.jpg">
+              <h5 style="padding-top: 20px;">New York</h5>
+              <p class="parrafo">Incluye los mejores posts de tus viajes para que tus posibles colaboradores se hagan una idea del tipo de trabajo que realizas.</p>
+            </div>
+            <div class="col-4">
+              <img style="display: block;" width="100%" height="80%" src="img/7.jpg">
+              <h5 style="padding-top: 20px;">Los Angeles</h5>
+              <p class="parrafo">Incluye los mejores posts de tus viajes para que tus posibles colaboradores se hagan una idea del tipo de trabajo que realizas.</p>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </section>
 
     </main>
+
+
     <footer>
-      <section id="barra_join" class="barra_footer text-center" style="padding-top: 50px; padding-bottom: 50px; background-color: aliceblue;">
-        <div class="container">
-          <h3>Join Our Newsletter</h3>
-          <p class="font_gris">Subscribe to our newsletter and receive the latest news about our products and services!</p>
-
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="" aria-label="Subscribe" aria-describedby="button-addon2">
-            <button class="btn btn-primary button_azul" type="button" id="button-addon2">Subscribe</button>
-          </div>
-
-        </div>
-      </section>
-      <section class="espacio_footer">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-3">
-              <h3>Bizland</h3>
-              <br>
-              <p class="font_gris">A108 Adam Street <br>
-                New York, NY 535022</p>
-              <br>
-              <p class="font_gris"> <strong class="font_grisoscuro">Phone:</strong> +1 5589 55488 55</p>
-              <p class="font_gris"> <strong class="font_grisoscuro">Email:</strong> info@example.com</p>
-            </div>
-
-            <div class="col-3 padding_footer">
-              <br>
-              <h5>Useful Links</h5>
-              <br>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Home</p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">About us</p>
-                </div>
-              </div>
-              
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Services</p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Terms of service</p>
-                </div>
-              </div>
-            
-            </div>
-
-            <div class="col-3">
-              <br>
-              <h5>Our Services</h5>
-              <br>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Web Design</p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Web Development</p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Product Management</p>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-1">
-                  <i class="fa-solid fa-caret-left icono_footer"></i>
-                </div>
-
-                <div class="col-11">
-                  <p class="font_gris">Marketing</p>
-                </div>
-              </div>
-
-          </div>
-
-          <div class="col-3">
-            <br>
-            <h5>Follow Us</h5>
-            <br>
-            <p class="font_grisoscuro">Cras fermentum odio eu feugiat lide par naso tierra videa magna 
-               derita valies</p>
-            <br>
-            <div id="contact_socials">
-              <i class="fa-brands fa-twitter iconos_gris"></i>
-              <i class="fa-brands fa-facebook iconos_gris"></i>
-              <i class="fa-brands fa-instagram iconos_gris"></i>
-              <i class="fa-brands fa-linkedin iconos_gris"></i>
-
-            </div>
-          </div>
-    
-        </div>
-      </section>
-
-      <hr>
-
-      <section>
-        <div class="container text-center">
-          <p class="font_gris">© Copyright <strong class="font_boldgris">BizLand</strong> All Rights Reserved</p>
-          <p class="font_grislight">Designed by <span class="icono_footer">BootstrapMade</span></p>
-
-        </div>
-      </section>
-
-
+     <section>
+      <p class="footer"><strong>Numero de télefono:</strong> +504 8989-8989 - <strong>Redes Sociales:</strong><span style="text-decoration: underline;"> Pancitos.hn</span> - <strong>Email:</strong> panecitoshn@gmail.com</p>
+     </section>
       
     </footer>
   
 
     <script src="js/bootstrap.js" ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
