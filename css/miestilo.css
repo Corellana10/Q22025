@@ -57,6 +57,46 @@
   color: white;
 }
 
+.old-standard-tt-regular-left {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:;
+  color: white;
+}
+
+.old-standard-tt-regular-pink-left {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: #ef6768;
+}
+
+.old-standard-tt-regular-pink-right {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
+  color: #ef6768;
+}
+
+.old-standard-tt-regular-white-left {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.old-standard-tt-regular-white-right {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
 .old-standard-tt-bold {
   font-family: "Old Standard TT", serif;
   font-weight: 700;
@@ -132,7 +172,25 @@ i{
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+#hero2{
+    background-image: url('../img/hero-bg.jpg');
+    padding-top: 160px;
+    padding-bottom: 160px;
 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#contactanostitulo{
+    background-color: #fac2d5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
 .color_azul{
     color: #106eea;
@@ -148,6 +206,12 @@ i{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgb(249, 249, 235);
+}
+
+#conoceapanecitos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
 }
 
 .p_arribayabajo{
@@ -190,3 +254,17 @@ i{
     padding-top: 25px;
     padding-bottom: 15px;
 }
+
+.footerwhite{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.sectionqa {
+    width: 48%; 
+    margin-bottom: 30px;
+}
+
+
