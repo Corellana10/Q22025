@@ -9,6 +9,7 @@
 .button {
   background-color: #ffffff;
   border: none;
+  border-radius: 15px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -17,7 +18,7 @@
 }
 
 .button2 {
-  background-color: #FF80AE;
+  background-color: #ef6768;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -27,18 +28,16 @@
   border-radius: 12px;
 }
 
-
-
 .fresca-regular{
   font-family: "fresca", sans-serif;
   font-weight: 500;
   font-style: oblique;
   font-size: larger;
-  color: #FF80AE;
+  color: #ef6768;
 }
 
 .navbarmenu{
- color: #FF80AE;
+ color: #ef6768;
  font-size: large;
  text-decoration: underline;
 }
@@ -57,11 +56,27 @@
   color: white;
 }
 
+.old-standard-tt-regular-rosaoscuro {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #ef6768;
+}
+
+.old-standard-tt-regular-rosaoscuro-left {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #ef6768;
+}
+
 .old-standard-tt-regular-left {
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-style: normal;
-  text-align:;
+  text-align: center;
   color: white;
 }
 
@@ -71,6 +86,14 @@
   font-style: normal;
   text-align: left;
   color: #ef6768;
+}
+
+.old-standard-tt-regular-black-left {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: black;
 }
 
 .old-standard-tt-regular-pink-right {
@@ -101,7 +124,7 @@
   font-family: "Old Standard TT", serif;
   font-weight: 700;
   font-style: normal;
-   color: #FF80AE;
+   color: #ef6768;
 }
 
 .old-standard-tt-bold2 {
@@ -154,8 +177,8 @@ i{
 }
 
 #menu{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 #menu a{
@@ -163,7 +186,7 @@ i{
 }
 
 #hero{
-    background-image: url('../img/hero-bg.jpg');
+    background-image: url('../img/hero-bg.png');
     padding-top: 160px;
     padding-bottom: 160px;
 
@@ -183,7 +206,7 @@ i{
 }
 
 #contactanostitulo{
-    background-color: #fac2d5;
+    background-color: #ffc4c8;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -199,13 +222,13 @@ i{
 #columnas1{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(255, 255, 253);
+    background-color: #FFFFFF;
 }
 
 #columnas2{
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: rgb(249, 249, 235);
+    background-color: #FFFFFF;
 }
 
 #conoceapanecitos{
@@ -244,12 +267,16 @@ i{
       background-color: #fff;
 }
 
+.fondo-rosa{
+  background-color: #ffc4c8;
+}
+
 .p_todo{
    padding: 30px;
 }
 
 .footer{
-    color: #fac2d5;
+    color: #ffc4c8;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 15px;
