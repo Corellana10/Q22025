@@ -294,4 +294,15 @@ i{
     margin-bottom: 30px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
+.footerpink{
+  color: #ffc4c8;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
